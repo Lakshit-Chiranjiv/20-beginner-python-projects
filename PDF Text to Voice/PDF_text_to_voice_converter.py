@@ -1,7 +1,7 @@
 import PyPDF2
 import pyttsx3
 
-pdf_file_obj = open("C:/Users/KIIT/Desktop/KIIT_me/SEM 5/CN/week 11.pdf",'rb')
+pdf_file_obj = open("C:/Users/KIIT/Desktop/KIIT_me/SEM 5/SE/ppt/Software Engineering Lecture - 9.pdf",'rb')
 
 pdf_file_reader = PyPDF2.PdfFileReader(pdf_file_obj)
 
