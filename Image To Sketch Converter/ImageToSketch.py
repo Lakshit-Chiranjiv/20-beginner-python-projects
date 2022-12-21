@@ -1,6 +1,6 @@
 import cv2
 import os
-
+#remove spaces from file path
 os.chdir('C:/Users/KIIT/Desktop/ALL CODE ND STUFFS/PROJECTS-REPOS/Python Folder/20-beginner-python-projects/Image To Sketch Converter')
 # print(dir)
 image = cv2.imread('tommy.jpg')
