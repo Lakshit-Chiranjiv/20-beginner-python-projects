@@ -1,8 +1,11 @@
 from playsound import playsound
 import time
+import os
 
 CLEAR = '\033[2J'
 CLEAR_AND_RETURN = '\033[H'
+
+os.chdir('C:/Users/KIIT/Desktop/ALL CODE ND STUFFS/PROJECTS-REPOS/Python Folder/mini-python-projects/Alarm Clock')
 
 def alarm(duration_in_secs):
     time_elapsed = 0
